@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>logging-in</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet"  href="https://fonts.googleapis.com/css?family=Alfa Slab One">
+	<link rel="stylesheet" type="text/css" href="css/1.css">
+	<script src="js/validation.js"></script>
+</head>
+<body background="img.jpg">
+
+<section>
+<div class="row">
+<div class="col-md-4" style="margin:0px;margin-left:70px;background-color: white;height: 900px">
+<br>
+<br>
+<center><img src=".png" ></center>
+<center><h5 style="color: grey;">A page to LOG-IN a user</h5></center>
+<br><br><br>
+
+
+<center><h2 style="font-family: 'Alfa Slab One'"><b>LOG IN</b></h2></center>
+<br><br><form  action="/action_page.php">
+<h4 style="text-align: center;"><font color="black">Want to create an account? </font><a href="signing-up.html">Sign up for free</a></h4>
+<br><br>
+<div style="padding:20px;">
+<input type="email" placeholder="Email" name="email" required style="border-style: none; border-bottom-style: dashed; font-size: 38px">
+</div>
+<br><br><br>
+<div style="padding:20px;">
+<form action="js/validation.js">
+<input type="password" placeholder="Password" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Kindly match the required condition: 1 uppercase letter,1 lowercase letter, 1 numeric number" required style="border-style: none; border-bottom-style: dashed; font-size: 38px"></div>
+</form>
+
+<br><br>
+    <div class="row">
+    <center><button type="submit" class="btn btn-primary btn-default" style="padding: 10px;border-radius:15px;"><font color="white" style="font-size: 25px">Log In</font></button>
+</center>
+<br>
+<br><br><br>
+<center><p>DISCLAIMER!</p></center>
+
+    </div>   
+</div>
+</form>
+</div>
+</section>
+<nav class="green">
+	<div class="more-padding collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		<ul class="nav navbar-nav navbar-right main-nav">
+			<li><a href="parallex.html"><b>Home</b></a></li>
+			<li id="colour"><a href="log-in1.html"><b>Login/Signup</b></a></li>
+		</ul>
+	</div>
+</nav>
+</body>
+</html>
